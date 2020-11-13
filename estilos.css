@@ -1,0 +1,92 @@
+
+body{
+    background: #313d52;
+}
+
+.navegacion {
+    width: 1000px;
+    margin: 30px auto;
+    background: #fff;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu > li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: #ce7d35;
+    transition: all .3s;
+}
+
+/* sumbenu */
+.submenu{
+    position: absolute;
+    background: #333333;
+    width: 190%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a {
+    display: block;
+     
+    padding: 15px;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+.title {
+    margin-bottom: 0;
+  }
+
+/* pie de pagina */
+/* footer{
+    position: relative;
+    margin: -10px;
+    width: 100%;
+    padding: 50px;
+    clear: both;
+    background: 000;
+    text-align: center;
+    color: #fff;
+} */
+.titulo {
+    width: 1300px;
+    margin: 60px auto;
+    background: rgb(235, 157, 12);
+}
+.parrafos{
+    width: 1300px;
+    margin: 60px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgb(235, 157, 12); 
+}
+
+.piepag {
+    text-align: center;
+    width: 1000px;
+    margin: 60px auto;
+    background: rgb(235, 157, 12); 
+  }
+
+  
